@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d60a4d22-884f-4b84-b090-d893bafc4868" name="Changes" comment="" />
+    <list default="true" id="d60a4d22-884f-4b84-b090-d893bafc4868" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tema2/Ej6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2/Ej7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2/Ej5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2/Ej5.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +51,9 @@
     "Python.Ej2.executor": "Run",
     "Python.Ej3.executor": "Run",
     "Python.Ej4.executor": "Run",
+    "Python.Ej5.executor": "Run",
+    "Python.Ej6.executor": "Run",
+    "Python.Ej7.executor": "Run",
     "Python.EjClase.executor": "Run",
     "Python.Ejemplos.executor": "Run",
     "Python.Prueba.executor": "Run",
