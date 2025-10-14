@@ -17,7 +17,7 @@ try:
     if n <= 0:
         raise ValueError("El número debe ser positivo y mayor que 0.")
 
-    # Casos especialesa
+    # Casos especiales
     if n == 1:
         print("No es primo porque el 1 solo tiene un divisor (él mismo).")
     elif n == 2:
