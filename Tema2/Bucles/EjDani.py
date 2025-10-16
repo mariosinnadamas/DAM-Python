@@ -1,6 +1,4 @@
-'''
-Haz una pirámide de asteriscos pidiendo el número de lineas al usuario.
-'''
+#Haz una pirámide de asteriscos pidiendo el número de lineas al usuario.
 
 try:
     n = int(input("Introduce el número de lineas de la pirámide: "))
