@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d60a4d22-884f-4b84-b090-d893bafc4868" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tema2/Ej6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema2/Ej7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2/Ej5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2/Ej5.py" afterDir="false" />
+    <list default="true" id="29efa4c7-2cac-4eab-8347-456ca128ef9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tema2/Bucles2/Ej2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2/Bucles2/Ej3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,22 +27,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mariosinnadamas"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mariosinnadamas/DAM-Python.git",
-    "accountId": "cc484413-c54c-4666-a7e7-88f7c4224823"
-  }
-}]]></component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="33BKVwT2ixcVaUbTDNrWhcqaau7" />
+  <component name="ProjectId" id="34HMrpMIblbvbLwsic8aeo3uFIC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,50 +39,47 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Ej1.executor": "Run",
     "Python.Ej2.executor": "Run",
-    "Python.Ej3.executor": "Run",
-    "Python.Ej4.executor": "Run",
-    "Python.Ej5.executor": "Run",
-    "Python.Ej6.executor": "Run",
-    "Python.Ej7.executor": "Run",
-    "Python.EjClase.executor": "Run",
-    "Python.Ejemplos.executor": "Run",
-    "Python.Prueba.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/mario/Documents/DAM/2/Python",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d60a4d22-884f-4b84-b090-d893bafc4868" name="Changes" comment="" />
-      <created>1758785052290</created>
+      <changelist id="29efa4c7-2cac-4eab-8347-456ca128ef9a" name="Changes" comment="" />
+      <created>1760866246287</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1758785052290</updated>
-      <workItem from="1758926923181" duration="456000" />
+      <updated>1760866246287</updated>
+      <workItem from="1760866247567" duration="16000" />
+      <workItem from="1760866264929" duration="115000" />
+      <workItem from="1760882759192" duration="103000" />
+      <workItem from="1760882913735" duration="7000" />
+      <workItem from="1760883529600" duration="213000" />
+      <workItem from="1760883949357" duration="9000" />
+      <workItem from="1760884000894" duration="1116000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$Ej2.coverage" NAME="Ej2 Coverage Results" MODIFIED="1760884775467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tema2/Bucles2" />
   </component>
 </project>
