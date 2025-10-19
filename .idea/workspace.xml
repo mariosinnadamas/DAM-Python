@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29efa4c7-2cac-4eab-8347-456ca128ef9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tema2/Bucles2/Ej2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema2/Bucles2/Ej3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="29efa4c7-2cac-4eab-8347-456ca128ef9a" name="Changes" comment="Ej2 y 3">
+      <change afterPath="$PROJECT_DIR$/Tema2/Bucles2/Ej4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +36,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Ej2.executor": "Run",
+    "Python.Ej3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -72,14 +69,28 @@
       <workItem from="1760882913735" duration="7000" />
       <workItem from="1760883529600" duration="213000" />
       <workItem from="1760883949357" duration="9000" />
-      <workItem from="1760884000894" duration="1116000" />
+      <workItem from="1760884000894" duration="3128000" />
     </task>
+    <task id="LOCAL-00001" summary="Ej2 y 3">
+      <option name="closed" value="true" />
+      <created>1760895143159</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760895143159</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ej2 y 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ej2 y 3" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$Ej2.coverage" NAME="Ej2 Coverage Results" MODIFIED="1760884775467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tema2/Bucles2" />
+    <SUITE FILE_PATH="coverage/Python$Ej3.coverage" NAME="Ej3 Coverage Results" MODIFIED="1760891890254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tema2/Bucles2" />
   </component>
 </project>
