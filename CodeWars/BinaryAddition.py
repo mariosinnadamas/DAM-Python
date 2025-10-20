@@ -5,7 +5,6 @@ Escribes dos números y te devuelve la suma en binario
 #Esto es lo que se me ocurrió a mi
 def add_binary(a,b):
     suma = a + b
-    cociente = 1
     nBinario = ""
     while suma >0:
         resto = suma % 2
