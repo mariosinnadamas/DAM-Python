@@ -1,7 +1,6 @@
 '''
 Escribes dos números y te devuelve la suma en binario
 '''
-from math import floor
 
 #Esto es lo que se me ocurrió a mi
 def add_binary(a,b):
