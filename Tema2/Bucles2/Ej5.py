@@ -1,4 +1,4 @@
-def menu_restaurante():
+def menu_restaurante(plato, bebida, complemento, metodo_pago):
     # Menús de opciones y precios
     platos = {
         1: ("Pizza", 8.50),
@@ -21,4 +21,11 @@ def menu_restaurante():
     metodos_pago = {
         1: "Efectivo",
         2: "Tarjeta"
+
     }
+
+plato = 1
+bebida= 2
+complemento= 1
+metodo_pago = 2
+print(menu_restaurante(plato, bebida, complemento, metodo_pago))

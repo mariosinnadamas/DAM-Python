@@ -1,4 +1,14 @@
 #Ejercicio de inversión por interes y año
+def inversion(inv, interes, anio):
+    #Conversión del interes de porcnetaje
+    interes = interes * 0.01
+
+    for i in range(0,anio):
+        interesObtenido = inv * interes
+        inv += interesObtenido
+
+        print(f"Interés obtenido en año {i+1}: ", interesObtenido)
+    return "Capital total: " , inv
 
 try:
     inv = float(input("Introduce la cantidad a invertir: "))
@@ -10,17 +20,7 @@ try:
     anio = int(input("Introduce el número de años: "))
     if anio < 1:
         raise ValueError("No puedes introducir menos de un año")
-
-    #Conversión del interes de porcnetaje
-    interes = interes * 0.01
-
-    for i in range(0,anio):
-        interesObtenido = inv * interes
-        inv += interesObtenido
-
-        print(f"Interés obtenido en año {i}: ", interesObtenido)
-    print("Capital total: ", inv)
-
-
 except ValueError:
     print("ERROR: Introduce un número")
+
+print(inversion(inv,interes,anio))

@@ -38,7 +38,7 @@ while(True):
                 inventario[producto] -= cantidad
                 print(f" Se vendieron {cantidad} {producto}. Quedan {inventario[producto]}")
             except ValueError as e:
-                print(f"⚠️ Error: {e}")
+                print(f" Error: {e}")
         elif dec == '3':
             for producto,cantidad in inventario.items():
                 print(f"-{producto.capitalize()}: {cantidad}")
