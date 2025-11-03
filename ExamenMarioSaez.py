@@ -1,20 +1,25 @@
 def ej1():
-    nombres1 =["Jose", "Paco", "Infanta", "Tobias"]
+    nombres1 = ["Jose", "Paco", "Infanta", "Tobias"]
     nombres2 = ["Elena", "Jaime", "Maria", "Jose"]
     contador = 0
-    try:
-        for i in nombres1:
-            for j in nombres2:
-                if i == j:
-                    print(f"No pueden ser dos nombres iguales:", i + " " + j)
-                elif i == "Infanta" and j == "Elena":
-                    print(ValueError(i + " " + j,"IES en Galapagar con estudios de formación profesional"))
-                else:
-                    contador += 1
-                    print(i,j)
-        print("Número de combinaciones realizadas: ", contador)
-    except ValueError as e:
-        print(e)
+
+    for i in nombres1:
+        for j in nombres2:
+            if i == j:
+                print(f"No pueden ser dos nombres iguales: {i} {j}")
+                continue  # salta a la siguiente combinación, no suma contador
+            try:
+                if i == "Infanta" and j == "Elena":
+                    raise ValueError(f"{i} {j}: IES en Galapagar con estudios de formación profesional")
+                # si no hay excepción, se imprime la combinación
+                print(i, j)
+            except ValueError as e:
+                print("Error:", e)
+            finally:
+                # se suma el contador en todos los casos excepto nombres iguales
+                contador += 1
+
+    print("Número total de combinaciones realizadas:", contador)
 
 def ej2():
     precios = []
@@ -44,6 +49,7 @@ def ej2():
                 if i > mayor:
                     mayor = i
         try:
+            print("Contador: ", count)
             media = suma / count
             print("Media: ", media)
         except ZeroDivisionError:
