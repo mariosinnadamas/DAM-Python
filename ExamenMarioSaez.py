@@ -27,38 +27,37 @@ def ej2():
     count = 0
     suma = 0
     mayor = 0
-    try:
-        while pre != 9999.99:
-            try:
-                pre = float(input("Introduce precio del producto (9999.99 para finalizar) "))
-            except ValueError:
-                print("Introduce precio valido")
 
+    while pre != 9999.99:
+        try:
+            pre = float(input("Introduce precio del producto (9999.99 para finalizar): "))
             if pre == 9999.99:
                 break
             elif pre < 0:
-                raise ValueError("No puedes poner un precio negativo")
+                print("No puedes poner un precio negativo.")
+                continue
             else:
                 precios.append(pre)
+        except ValueError:
+            print("Introduce un precio válido (número).")
 
-        for i in precios:
-            if i >= 10:
-                print(i)
-                suma = suma + i
-                count += 1
-                if i > mayor:
-                    mayor = i
-        try:
-            print("Contador: ", count)
-            media = suma / count
-            print("Media: ", media)
-        except ZeroDivisionError:
-            print("No se puede dividir entre 0")
+    for i in precios:
+        if i >= 10:
+            print(i)
+            suma += i
+            count += 1
+            if i > mayor:
+                mayor = i
 
-        print("Precio más alto: ", mayor)
+    try:
+        print("Contador:", count)
+        media = suma / count
+        print("Media:", media)
+    except ZeroDivisionError:
+        print("No se puede dividir entre 0.")
 
-    except ValueError as e:
-        print(e)
+    print("Precio más alto:", mayor)
+
 
 def ej3():
     n1 = 0
