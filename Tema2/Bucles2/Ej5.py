@@ -24,8 +24,30 @@ def menu_restaurante(plato, bebida, complemento, metodo_pago):
 
     }
 
+    # Obtengo las selecciones a partir de los números
+    plato_sel = platos.get(plato)
+    bebida_sel = bebidas.get(bebida)
+    complemento_sel = complementos.get(complemento)
+    metodo_sel = metodos_pago.get(metodo_pago)
+
+    # Calculo el total
+    total = plato_sel[1] + bebida_sel[1] + complemento_sel[1]
+
+    # Muestro un resumen
+    resultado = f"""
+        **Resumen del pedido:**
+        Plato: {plato_sel[0]} - ${plato_sel[1]:.2f}
+        Bebida: {bebida_sel[0]} - ${bebida_sel[1]:.2f}
+        Complemento: {complemento_sel[0]} - ${complemento_sel[1]:.2f}
+        ----------------------------
+        Total a pagar: ${total:.2f}
+        Método de pago: {metodo_sel}
+        """
+    return resultado.strip()
+
 plato = 1
 bebida= 2
 complemento= 1
 metodo_pago = 2
+
 print(menu_restaurante(plato, bebida, complemento, metodo_pago))
