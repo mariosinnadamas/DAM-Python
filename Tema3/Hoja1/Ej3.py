@@ -6,7 +6,6 @@ Crea una función llamada `crear_usuario`que reciba los siguientes argumentos po
 La función debe devolver una lista sólo de los usuarios activos con los datos del usuario en
 el orden: [nombre, email, activo].
 '''
-# El asterisco obliga a que sean argumentos clave
 def crear_usuario(*, nombre: str, email: str, activo: bool = True):
     if activo:
         return [nombre, email, activo]

@@ -5,9 +5,8 @@ Crea una función llamada `calcular_precio` que reciba:
 La función debe devolver el precio final con el IVA aplicado.
 '''
 
-def calcular_precio(precio_base,iva):
+def calcular_precio(precio_base:float,*,iva:int = 21):
     return precio_base * (1 + iva/100)
 
 precio_base = 20.8
-iva = 21
-print(calcular_precio(precio_base,iva))
+print(calcular_precio(precio_base))
