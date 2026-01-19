@@ -1,5 +1,3 @@
-from itertools import count
-
 
 def calcular_cadena(cad):
     return len(cad),cad.upper(),cad.lower()
